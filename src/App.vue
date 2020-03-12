@@ -231,7 +231,23 @@
         </sad-column>
       </sad-row>
     </div>
-
+    <div class="group" style="width: 50%;height: 200px">
+      <sad-layout>
+        <sad-layout-header style="height: 50px; background:lightskyblue;">Header</sad-layout-header>
+        <sad-layout-content style=" background:#ddd; color: black;">Content</sad-layout-content>
+        <sad-layout-footer style="height: 50px; background:lightskyblue;">Footer</sad-layout-footer>
+      </sad-layout>
+    </div>
+    <div class="group" style="width: 50%;height: 200px">
+      <sad-layout>
+        <sad-layout-header style="height: 50px; background:lightskyblue;">Header</sad-layout-header>
+        <sad-layout>
+          <sad-layout-sider  style=" background:#ddd; color: black; width: 40px">Sider</sad-layout-sider>
+          <sad-layout-content  style="background:deepskyblue">Content</sad-layout-content>
+        </sad-layout>
+        <sad-layout-footer style="height: 50px; background:lightskyblue;">Footer</sad-layout-footer>
+      </sad-layout>
+    </div>
   </div>
 </template>
 
@@ -245,9 +261,20 @@ import sadTabsItem from './components/sad-tabs-item'
 import sadTabsPanel from './components/sad-tabs-panel'
 import sadColumn from './components/sad-column'
 import sadRow from './components/sad-row'
+import SadLayoutContent from "./components/sad-layout-content";
+import SadLayout from "./components/sad-layout";
+import SadLayoutHeader from "./components/sad-layout-header";
+import SadLayoutFooter from "./components/sad-layout-footer";
+import SadLayoutSider from "./components/sad-layout-sider";
  export default {
   name: 'app',
-  components: {SadButton, SadInput, sadTabs, sadTabsBody, sadTabsHead, sadTabsPanel ,sadTabsItem, sadColumn, sadRow},
+  components: {
+    SadLayoutSider,
+    SadLayoutFooter,
+    SadLayoutHeader,
+    SadLayout,
+    SadLayoutContent,
+    SadButton, SadInput, sadTabs, sadTabsBody, sadTabsHead, sadTabsPanel ,sadTabsItem, sadColumn, sadRow},
   data:()=>{
     return{
       value: '支持双向绑定'
