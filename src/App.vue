@@ -54,6 +54,184 @@
         </sad-tabs-body>
       </sad-tabs>
     </div>
+    <div class="group" style="width: 100%">
+      <sad-row >
+        <sad-column span="8" >
+          <div class="grid-content">8</div>
+        </sad-column>
+        <sad-column span="8">
+          <div class="grid-content">8</div>
+        </sad-column>
+        <sad-column span="8">
+          <div class="grid-content">8</div>
+        </sad-column>
+        <sad-column span="6" >
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="6">
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="6">
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="6">
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="4">
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4" >
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4">
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4">
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4">
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4" >
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+      </sad-row>
+    </div>
+    <div class="group" style="width: 100%">
+      <sad-row gutter="10" >
+        <sad-column span="8" >
+          <div class="grid-content">8</div>
+        </sad-column>
+        <sad-column span="8">
+          <div class="grid-content">8</div>
+        </sad-column>
+        <sad-column span="8">
+          <div class="grid-content">8</div>
+        </sad-column>
+        <sad-column span="6" >
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="6">
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="6">
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="6">
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="4">
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4" >
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4">
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4">
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4">
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="4" >
+          <div class="grid-content">4</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+        <sad-column span="2" >
+          <div class="grid-content">2</div>
+        </sad-column>
+      </sad-row>
+    </div>
+    <div class="group" style="width: 100%">
+      <sad-row>
+        <sad-column span="8">
+          <div class="grid-content">8</div>
+        </sad-column>
+        <sad-column span="8" offset="8">
+          <div class="grid-content">8</div>
+        </sad-column>
+        <sad-column span="6" >
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="6" offset="6">
+          <div class="grid-content">6</div>
+        </sad-column>
+        <sad-column span="6" >
+          <div class="grid-content">6</div>
+        </sad-column>
+      </sad-row>
+    </div>
+
   </div>
 </template>
 
@@ -65,9 +243,11 @@ import sadTabsBody from './components/sad-tabs-body'
 import sadTabsHead from './components/sad-tabs-head'
 import sadTabsItem from './components/sad-tabs-item'
 import sadTabsPanel from './components/sad-tabs-panel'
-export default {
+import sadColumn from './components/sad-column'
+import sadRow from './components/sad-row'
+ export default {
   name: 'app',
-  components: {SadButton, SadInput, sadTabs, sadTabsBody, sadTabsHead, sadTabsPanel ,sadTabsItem},
+  components: {SadButton, SadInput, sadTabs, sadTabsBody, sadTabsHead, sadTabsPanel ,sadTabsItem, sadColumn, sadRow},
   data:()=>{
     return{
       value: '支持双向绑定'
@@ -84,11 +264,18 @@ export default {
 <style lang="scss">
   #app {
     .group{
-      margin: 20px;
+      padding: 20px;
       display: flex;
       flex-direction: row;
-      div {
+      > div {
         margin-right: 5px;
+      }
+      .grid-content{
+        border: silver solid 1px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     }
   }
