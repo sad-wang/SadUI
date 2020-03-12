@@ -3,7 +3,7 @@
     <sad-button >默认按钮</sad-button>
     <sad-button icon="settings">icon按钮</sad-button>
     <sad-button icon="left">icon按钮</sad-button>
-    <sad-button icon="settings" icon-position="right">icon居右按钮</sad-button>
+    <sad-button icon="settings" icon-position="right" @click="click('Button | icon = setting | icon-position = right')">icon居右按钮</sad-button>
   </div>
 </template>
 
@@ -11,7 +11,12 @@
 import SadButton from "./components/sad-button";
 export default {
   name: "app",
-  components: {SadButton}
+  components: {SadButton},
+  methods: {
+    click(x){
+      console.log(x);
+    }
+  }
 }
 </script>
 

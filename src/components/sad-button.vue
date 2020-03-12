@@ -1,5 +1,5 @@
 <template>
-    <button :class="[`icon-${iconPosition}`]" class="sad-button">
+    <button :class="[`icon-${iconPosition}`]" class="sad-button" @click="$emit('click')" >
         <sad-icon v-if="icon" :name="icon" class="icon"/>
         <div class="content">
             <slot/>
@@ -20,7 +20,9 @@
                 validator (value) {
                     return value === 'left' || 'right'
                 }
-            }
+            },
+        },
+        methods:{
         }
     }
 </script>
