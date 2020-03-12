@@ -1,41 +1,64 @@
 <template>
   <div id="app">
-    <sad-button >默认按钮</sad-button>
-    <sad-button icon="settings">icon按钮</sad-button>
-    <sad-button icon="left">icon按钮</sad-button>
-    <sad-button icon="settings" icon-position="right" @click="click('Button | icon = setting | icon-position = right')">icon居右按钮</sad-button>
+    <div class="group">
+      <div>
+        <sad-button >默认按钮</sad-button>
+      </div>
+      <div>
+        <sad-button icon="settings">icon按钮</sad-button>
+      </div>
+      <div>
+        <sad-button icon="left">icon按钮</sad-button>
+      </div>
+      <div>
+        <sad-button icon="settings" icon-position="right" @click="click('Button | icon = setting | icon-position = right')">icon居右按钮</sad-button>
+      </div>
+    </div>
+    <div class="group">
+      <div>
+        <sad-input value='禁用' disabled/>
+      </div>
+      <div>
+        <sad-input value='只读' readonly/>
+      </div>
+      <div>
+        <sad-input error='出错了'/>
+      </div>
+      <div>
+        <sad-input  v-model="value" :value="value"/> value: {{value}}
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import SadButton from "./components/sad-button";
+import SadButton from './components/sad-button'
+import SadInput from './components/sad-input'
 export default {
-  name: "app",
-  components: {SadButton},
+  name: 'app',
+  components: {SadButton, SadInput},
+  data:()=>{
+    return{
+      value: '支持双向绑定'
+    }
+  },
   methods: {
     click(x){
-      console.log(x);
+      console.log(x)
     }
   }
 }
 </script>
 
 <style lang="scss">
-  * {margin: 0; padding: 0; box-sizing: border-box;}
-  html {
-    --button-height: 32px;
-    --font-size: 14px;
-    --button-bg: white;
-    --button-active-bg: #eee;
-    --border-radius: 4px;
-    --color: #333;
-    --border-color: #999;
-    --border-color-hover: #666;
-  }
   #app {
-    margin: 20px;
-  }
-  body {
-    font-size: var(--font-size);
+    .group{
+      margin: 20px;
+      display: flex;
+      flex-direction: row;
+      div {
+        margin-right: 5px;
+      }
+    }
   }
 </style>

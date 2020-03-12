@@ -7,6 +7,22 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>SadUI</title>
   </head>
+  <style type="text/css">
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    html {
+      --button-height: 32px;
+      --font-size: 14px;
+      --button-bg: white;
+      --button-active-bg: #eee;
+      --border-radius: 4px;
+      --color: #333;
+      --border-color: #999;
+      --border-color-hover: #666;
+    }
+    body {
+      font-size: var(--font-size);
+    }
+  </style>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>

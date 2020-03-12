@@ -8,7 +8,7 @@
 </template>
 
 <script>
-    import SadIcon from "./sad-icon";
+    import SadIcon from "./sad-icon"
     export default {
         name: "sad-button",
         components: {SadIcon},
