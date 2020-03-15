@@ -292,6 +292,8 @@ import { SadLayoutSider,SadLayoutFooter,SadLayoutHeader,SadLayout,SadLayoutConte
 </sad-layout>
 ```
 普通布局方案；
+
+
 ![sad-layout](https://user-gold-cdn.xitu.io/2020/3/15/170db8adab2643a5?w=716&h=178&f=png&s=3409)
 ```javascript
 <sad-layout>
