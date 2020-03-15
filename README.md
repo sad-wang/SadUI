@@ -257,7 +257,7 @@ import { sadColumn, sadRow, } from 'sadui'
 </div>
 ```
 通过 gutter 属性设置边距
-!sadGrid](https://user-gold-cdn.xitu.io/2020/3/15/170db85bfd3ac3b8?w=1025&h=118&f=png&s=1937)
+[!sadGrid](https://user-gold-cdn.xitu.io/2020/3/15/170db85bfd3ac3b8?w=1025&h=118&f=png&s=1937)
 ```
 <div style="width: 100%">
   <sad-row>
