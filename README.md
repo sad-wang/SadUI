@@ -6,7 +6,7 @@ SadUI 是王 sad 为巩固 Vue 知识的使用而做的一个 UI 框架，希望
 Vue CLI + Scss
 
 ## 安装
-```
+```npm
 npm install sadui
 ```
 
@@ -16,7 +16,7 @@ npm install sadui
 * 由于本 UI 库开发未完成，使用时需要自行 Babel 转义 并安装 Scss* 由于本 UI 库开发未完成，使用时需要自行 Babel 转义 并安装 Scss。
 ### 克隆仓库预览
 可在 `/src/App.vue` 中查看如何使用 UI 组件
-```
+```npm
 git clone https://github.com/sad-wang/SadUI.git
 npm install
 npm run serve
@@ -90,7 +90,7 @@ import {  sadTabs,sadTabsBody,sadTabsHead,sadTabsPanel,sadTabsItem, } from 'sadu
 ## Grid 布局
 ![sadGrid](https://user-gold-cdn.xitu.io/2020/3/15/170db82b1a042e44?w=1023&h=185&f=png&s=4113)
 响应式布局 Grid 组件
-```
+```javascript
 import { sadColumn, sadRow, } from 'sadui'
 
 <div style="width: 100%">
@@ -175,7 +175,7 @@ import { sadColumn, sadRow, } from 'sadui'
 ```
 通过 span 属性设置跨度；
 ![sadGrid](https://user-gold-cdn.xitu.io/2020/3/15/170db83f9663afe8?w=1017&h=226&f=png&s=3530)
-```
+```javascript
 <div style="width: 100%">
   <sad-row gutter="10" >
     <sad-column span="8" >
@@ -258,7 +258,7 @@ import { sadColumn, sadRow, } from 'sadui'
 ```
 通过 gutter 属性设置边距
 [!sadGrid](https://user-gold-cdn.xitu.io/2020/3/15/170db85bfd3ac3b8?w=1025&h=118&f=png&s=1937)
-```
+```javascript
 <div style="width: 100%">
   <sad-row>
     <sad-column span="8">
@@ -282,7 +282,7 @@ import { sadColumn, sadRow, } from 'sadui'
 通过 offset 属性设置空白
 ## layout 布局
 ![sad-layout](https://user-gold-cdn.xitu.io/2020/3/15/170db891ffa6c4a9?w=697&h=190&f=png&s=2910)
-```
+```javascript
 import { SadLayoutSider,SadLayoutFooter,SadLayoutHeader,SadLayout,SadLayoutContent, } from 'sadui'
 
 <sad-layout>
@@ -293,7 +293,7 @@ import { SadLayoutSider,SadLayoutFooter,SadLayoutHeader,SadLayout,SadLayoutConte
 ```
 普通布局方案；
 ![sad-layout](https://user-gold-cdn.xitu.io/2020/3/15/170db8adab2643a5?w=716&h=178&f=png&s=3409)
-```
+```javascript
 <sad-layout>
   <sad-layout-header style="height: 50px; background:lightskyblue;">Header</sad-layout-header>
   <sad-layout>
@@ -306,7 +306,7 @@ import { SadLayoutSider,SadLayoutFooter,SadLayoutHeader,SadLayout,SadLayoutConte
 带有 silder 的布局方案
 ## Toast 
 ![sad-toast](https://user-gold-cdn.xitu.io/2020/3/15/170db8d9373e097e?w=215&h=71&f=png&s=2620)
-```
+```javascript
 import { plugin, sadButton } from 'sadui'
 Vue.use(plugin)
 
